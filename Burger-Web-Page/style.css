@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-logo {
+  margin-left: 140px;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.hover-style :hover {
+  color: orange;
+}
+
+
+.button a {
+  padding: 10px 20px;
+  background-color: orange;
+  color: black;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+
+.button :hover {
+  background: url(./old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+  color: orange;
+}
+
+
+.nav-logo {
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+
+.span1 {
+  color: white;
+}
+
+
+.span2 {
+  color: orange;
+}
+
+
+.nav-iteeeemssss {
+  display: flex;
+  justify-content: center;
+}
+
+
+.nav-list {
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: large;
+  font-variation-settings:
+    "wdth" 100
+}
+
+
+.bigggest-container {
+  background-image: url(./old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+}
+
+
+.main-containnerr {
+  width: 110%;
+  padding: 0px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main-containnerr h1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100
+}
+
+
+.orange-line {
+  width: 30%;
+  height: 1px;
+  background-color: rgb(255, 187, 0);
+}
+
+
+.paragraph {
+  font-size: small;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px 0px;
+}
+
+
+.icon-section {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.heading-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.logooo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.logoooo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.logo-pera {
+  font-size: small;
+  margin-top: -10px;
+  font-weight: bolder;
+}
+
+
+.icon-image {
+  width: 50px;
+  height: 50px;
+  margin-left: -2px;
+  margin-top: -30px;
+}
+
+
+.burger-img {
+  width: 100%;
+  padding: 0px 20px;
+}
+
+
+#Burger-image {
+  width: 100%;
+}
+
+
+.batton {
+  width: 30%;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: small;
+  border: none;
+  background-color: rgb(255, 166, 0);
+  margin-top: 10px;
+}
+
+
+
+
+
+/* this is Responsive section */
+
+@media only screen and (max-width:960px) {
+  .icon-section {
+    width: 70%;
+  }
+
+  .batton {
+    width: 40%;
+  }
+
+  .nav-logo {
+    margin-left: -6px;
+  }
+}
+
+
+
+@media only screen and (max-width:814px) {
+  .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 30px 20px;
+  }
+
+  .burger-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-containnerr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 100px;
+  }
+
+  .batton {
+    padding: 10px 20px;
+  }
+
+}
+
+
+
+@media only screen and (max-width:528px) {
+  .main-containnerr {
+    padding: 10px 40px;
+  }
+
+  .batton {
+    width: 40%;
+  }
+}
+
+
+
+@media only screen and (max-width:407px) {
+  .main-containnerr {
+    padding: 10px 10px;
+  }
+
+  .batton {
+    width: 40%;
+  }
+
+
+  .nav-logo {
+    margin-left: -5px;
+  }
+
+  .big-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
+@media (min-width:768px) {
+
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 1000px;
+  }
+}
